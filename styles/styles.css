@@ -1,0 +1,87 @@
+  /* .container {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .parking-lot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .parking-slot {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .parking-slot.occupied {
+    background-color: #e71d36;
+  }
+
+  .parking-slot.available {
+    background-color: #4cd964;
+  }
+
+  .parking-slot .car-diagram {
+    width: 80px;
+    height: 60px;
+    margin: 10px auto;
+    background-image: url('https://freepngimg.com/thumb/car/1-2-car-png-picture.png');
+    background-size: cover;
+  } */
+
+  #parking-lot {
+    width: 800px;
+    height: 400px;
+    background-color: #eee;
+    border: 10px solid #999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .lane {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .curb {
+    width: 10px;
+    height: 50px;
+    background-color: #333;
+  }
+
+  .parking-space {
+    width: 150px;
+    height: 50px;
+    background-color: #aaa;
+    border: 2px solid #666;
+  }
+
+  .trees {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tree {
+    width: auto;
+    height: 12vh;
+  }
+
+  .car {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transition: left 0.5s, top 0.5s;
+  }
